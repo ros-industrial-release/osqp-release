@@ -327,6 +327,9 @@ if (NOT PYTHON AND NOT MATLAB AND NOT R_LANG AND NOT EMBEDDED)
 
 endif (NOT PYTHON AND NOT MATLAB AND NOT R_LANG AND NOT EMBEDDED)
 
+# Install catkin package.xml
+install(FILES package.xml DESTINATION share/osqp)
+
 # Create CMake packages for the build directory
 # ----------------------------------------------
 include(CMakePackageConfigHelpers)
