@@ -18,7 +18,7 @@ tracks:
     name: upstream
     patches: noetic
     release_inc: 0
-    release_repo_url: https://github.com/ros-industrial-release/osqp-release.git
+    release_repo_url: null
     release_tag: :{version}
     ros_distro: noetic
     vcs_type: git
